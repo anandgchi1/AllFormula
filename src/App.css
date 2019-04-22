@@ -1,0 +1,29 @@
+.container{
+    background-image:url('https://res.cloudinary.com/dpy0mkwsp/image/upload/v1545326564/images/burger-istock.jpg');
+    height:100vh;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.menu_item {
+    padding: 20px;
+    background-color: #ffffff2b;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #757575;
+    &:link{
+      outline: none;
+    }
+}
+.active_item{
+    color: black;
+    font-weight: bold;
+    width: inherit;
+}
+
+.admin_signin{
+    position:absolute;
+    top:50px;
+    right:80px;
+}
